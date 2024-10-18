@@ -1,0 +1,96 @@
+.background {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 6rem 0;
+    background-image: linear-gradient(135deg, #458cf8, rgb(18, 203, 244));
+}
+
+.container {
+    width: 30rem;
+    position: relative;
+    background-color: #fcfbfb;
+    margin: 0 auto;
+    /* margin: 6.5rem auto; */
+    border-radius: 10px;
+    box-shadow:0 0 20px  rgb(132, 128, 128);
+    padding: 1.8rem;
+}
+
+.pic {
+    border: .5rem solid #fff;
+    height: 12rem;
+    width: 12rem;
+    background-image: url(../images/aqssa.jpeg);
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: -6rem;
+    left: 10rem;
+
+
+}
+.social> a{
+    margin: 0 20px;
+    color: gold;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+}
+
+.content {
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(173, 164, 164);
+    padding: 20px;
+    
+}
+
+.content p {
+    font-size: 30px;
+    line-height: 2;
+    
+    
+}
+
+.container .numbers {
+    color: rgb(173, 164, 164);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.container .numbers pa{
+    color:gold;
+}
+
+
+.container .button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .button a {
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+ .btns .pro{
+    border-radius: 20px;
+    border: 2px solid gold;
+    padding: 10px 15px;
+    color: gold;
+    
+  }
+  .btns .three{
+    font-size: 30px;
+    color: #939aa5; 
+    
+}
